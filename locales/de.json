@@ -1,0 +1,103 @@
+{
+  "hero": {
+    "title": "Experten KI-gestütztes",
+    "typedStrings": ["Digitales Marketing", "Bezahlte Werbung", "Website-Entwicklung", "Mobile App-Entwicklung"],
+    "subtitle": "Fördern Sie Ihr Wachstum",
+    "description": "Verwandeln Sie Ihre Vision in die Realität mit innovativen digitalen Lösungen. Lassen Sie uns gemeinsam Ihren Erfolg aufbauen",
+    "yearsOfSuccess": "Jahre des Erfolgs",
+    "yearsCount": "12",
+    "getInTouch": "Kontakt aufnehmen"
+  },
+  "header": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "services": "Dienstleistungen",
+    "portfolio": "Portfolio", 
+    "contact": "Kontakt",
+    "getStarted": "Loslegen"
+  },
+  "services": {
+    "title": "Unsere digitalen Dienstleistungen für Ihr Markenwachstum",
+    "subtitle": "UNSERE DIENSTLEISTUNGEN",
+    "description": "Fördern Sie das Wachstum Ihrer Marke mit maßgeschneiderten digitalen Lösungen, die inspirieren, innovieren und Ergebnisse liefern.",
+    "allServices": "Alle Dienstleistungen",
+    "creativeStrategy": {
+      "title": "Kreative Strategie",
+      "description": "Entfesseln Sie Ihr kreatives Potenzial mit NSPs kreativer Strategie. Unser innovativer Ansatz hilft Ihnen, einzigartige und effektive Strategien zu entwickeln, um Ihre Marke von der Konkurrenz abzuheben."
+    },
+    "digitalSolution": {
+      "title": "Digitale Lösung", 
+      "description": "Erleben Sie die ultimative digitale Lösung mit NSP. Unser professionelles Team widmet sich der Bereitstellung erstklassiger digitaler Dienstleistungen, die Ihr Unternehmen zu neuen Höhen führen."
+    },
+    "analysisReport": {
+      "title": "Analyse & Bericht",
+      "description": "NSP ist Ihre Lösung für professionelle Analyse und Berichterstattung. Mit unseren hochmodernen Tools und Expertise bieten wir umfassende Einblicke und detaillierte Berichte, die Ihnen helfen, fundierte Entscheidungen für Ihr Unternehmen zu treffen."
+    }
+  },
+  "trustedPartners": {
+    "title": "Vertrauenswürdige Marken. Bewährte Ergebnisse.",
+    "description": "Von verschiedenen Kunden vertraut, liefern wir wirkungsvolle Strategien, die Wachstum und dauerhafte Beziehungen fördern.",
+    "cta": "Bereit, unserer erfolgreichen Kundenfamilie beizutreten?",
+    "button": "Starten Sie Ihre Erfolgsgeschichte"
+  },
+  "whyChoose": {
+    "title": "Warum wählen",
+    "subtitle": "Expertise für Ihre digitale Wachstumsreise", 
+    "description": "Unser engagiertes Team ist darauf bedacht, Ihre einzigartigen Bedürfnisse zu verstehen und sicherzustellen, dass wir innovative Strategien bereitstellen, die Ergebnisse erzielen. Mit Fokus auf Qualität und Integrität.",
+    "dataApproach": {
+      "title": "Datengetriebener Ansatz",
+      "description": "Wir nutzen Daten und Erkenntnisse, um fundierte Entscheidungen zu treffen, die zu effektiveren und effizienteren Lösungen führen."
+    },
+    "competitivePricing": {
+      "title": "Wettbewerbsfähige Preise",
+      "description": "Wir bieten unsere hochwertigen Dienstleistungen zu wettbewerbsfähigen Preisen an und bieten Ihnen ein großartiges Preis-Leistungs-Verhältnis für Ihre Investition."
+    },
+    "transparentCommunication": {
+      "title": "Transparente Kommunikation", 
+      "description": "Wir halten die höchsten Standards an Professionalität und ethischen Grundsätzen in all unseren Geschäftsbeziehungen aufrecht."
+    }
+  },
+  "stats": {
+    "clients": "140K+",
+    "clientsLabel": "Zufriedene Kunden",
+    "projects": "50K+", 
+    "projectsLabel": "Abgeschlossene Projekte",
+    "experience": "12+",
+    "experienceLabel": "Jahre Erfahrung",
+    "awards": "25+",
+    "awardsLabel": "Gewonnene Auszeichnungen"
+  },
+  "footer": {
+    "companyName": "NSP Global Services",
+    "description": "Ihr vertrauensvoller Partner für digitale Transformation und Wachstum.",
+    "quickLinks": "Schnelle Links",
+    "servicesFooter": "Dienstleistungen",
+    "company": "Unternehmen",
+    "support": "Support",
+    "links": {
+      "home": "Startseite",
+      "about": "Über uns", 
+      "services": "Dienstleistungen",
+      "portfolio": "Portfolio",
+      "contact": "Kontakt",
+      "seo": "SEO-Dienstleistungen",
+      "ppc": "PPC-Management", 
+      "webDev": "Web-Entwicklung",
+      "appDev": "App-Entwicklung",
+      "careers": "Karriere",
+      "blog": "Blog",
+      "testimonials": "Testimonials",
+      "helpCenter": "Hilfezentrum",
+      "documentation": "Dokumentation",
+      "liveChat": "Live-Chat"
+    },
+    "stayUpdated": "Bleiben Sie auf dem Laufenden",
+    "newsletterDescription": "Erhalten Sie die neuesten SEO-Tipps, Branchennachrichten und exklusive Angebote in Ihrem Posteingang.",
+    "subscribe": "Abonnieren",
+    "languages": "Sprachen",
+    "followUs": "Folgen Sie uns",
+    "copyright": "Alle Rechte vorbehalten",
+    "privacyPolicy": "Datenschutzrichtlinie",
+    "termsOfService": "Nutzungsbedingungen"
+  }
+}

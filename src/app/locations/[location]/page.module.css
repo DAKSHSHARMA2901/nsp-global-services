@@ -1,0 +1,303 @@
+/* Optimized Location Page Styles */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: #f8fafc;
+}
+
+.contentWrapper {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 3rem;
+  margin: 2rem 0;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e2e8f0;
+}
+
+.contentWrapper h1 {
+  color: #1a202c;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.contentWrapper h2 {
+  color: #2d3748;
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 2.5rem 0 1rem 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid #3182ce;
+}
+
+.contentWrapper h3 {
+  color: #2d3748;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 2rem 0 1rem 0;
+  padding-left: 1rem;
+  border-left: 4px solid #3182ce;
+}
+
+.content {
+  color: #4a5568;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  text-align: justify;
+}
+
+.list {
+  color: #4a5568;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin: 1.5rem 0;
+  padding-left: 2rem;
+}
+
+.list li {
+  margin-bottom: 0.8rem;
+}
+
+.list li strong {
+  color: #2d3748;
+  font-weight: 600;
+}
+
+.readMoreButton {
+  background: #3182ce;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: block;
+  margin: 2rem auto;
+  min-width: 200px;
+}
+
+.readMoreButton:hover {
+  background: #2c5aa0;
+}
+
+/* Simple FAQ Section Styles */
+.FAQS {
+  background: #f8fafc;
+  padding: 3rem 0;
+  margin-top: 4rem;
+  clear: both;
+}
+
+.accordion_h1 {
+  color: #1a202c;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2.5rem;
+  padding: 0;
+  line-height: 1.3;
+}
+
+.faqdiv2 {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.faqimg {
+  display: none;
+}
+
+.faqCard {
+  display: none;
+}
+
+.faqIcon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #3182ce;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1rem;
+}
+
+.faqCard h3 {
+  color: #2d3748;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 1rem 0;
+}
+
+.faqCard p {
+  color: #4a5568;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.accordion {
+  background: white;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  margin-bottom: 1rem;
+  border: 1px solid #e2e8f0;
+}
+
+.title_1 {
+  background: #ffffff;
+  border-bottom: 1px solid #e2e8f0;
+  padding: 1.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  min-height: 60px;
+}
+
+.title_1:hover {
+  background: #f7fafc;
+}
+
+.title_1:last-child {
+  border-bottom: none;
+}
+
+.accodion_h2 {
+  color: #2d3748;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0;
+  flex: 1;
+  text-align: left;
+  line-height: 1.4;
+}
+
+.contain {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  background: #ffffff;
+}
+
+.contain.show {
+  max-height: 200px;
+}
+
+.container_accordion_ptag {
+  color: #4a5568;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  padding: 1.5rem;
+  margin: 0;
+  text-align: left;
+  background: #f8f9fa;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+
+  .contentWrapper {
+    padding: 2rem;
+    margin: 1rem 0;
+  }
+
+  .contentWrapper h1 {
+    font-size: 2rem;
+  }
+
+  .contentWrapper h2 {
+    font-size: 1.6rem;
+  }
+
+  .contentWrapper h3 {
+    font-size: 1.3rem;
+  }
+
+  .content, .list {
+    font-size: 1rem;
+  }
+
+  .faqdiv2 {
+    padding: 0 1rem;
+  }
+
+  .accordion_h1 {
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+  }
+
+  .accodion_h2 {
+    font-size: 1.1rem;
+  }
+
+  .title_1 {
+    padding: 1.5rem;
+  }
+
+  .container_accordion_ptag {
+    padding: 1.5rem;
+    font-size: 1rem;
+  }
+
+  .FAQS {
+    padding: 3rem 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .contentWrapper {
+    padding: 1.5rem;
+  }
+
+  .contentWrapper h1 {
+    font-size: 1.8rem;
+  }
+
+  .contentWrapper h2 {
+    font-size: 1.4rem;
+  }
+
+  .accordion_h1 {
+    font-size: 1.9rem;
+  }
+
+  .readMoreButton {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+  }
+
+  .title_1 {
+    padding: 1.2rem;
+  }
+
+  .accodion_h2 {
+    font-size: 1rem;
+  }
+
+  .container_accordion_ptag {
+    padding: 1.2rem;
+    font-size: 0.95rem;
+  }
+}

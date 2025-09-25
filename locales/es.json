@@ -1,0 +1,103 @@
+{
+  "hero": {
+    "title": "Experto con IA",
+    "typedStrings": ["Marketing Digital", "Publicidad Pagada", "Desarrollo Web", "Desarrollo de Apps Móviles"],
+    "subtitle": "Impulsa Tu Crecimiento",
+    "description": "Transforma tu visión en realidad con soluciones digitales innovadoras. Construyamos juntos tu éxito",
+    "yearsOfSuccess": "Años de Éxito",
+    "yearsCount": "12",
+    "getInTouch": "Contáctanos"
+  },
+  "header": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "services": "Servicios",
+    "portfolio": "Portafolio", 
+    "contact": "Contacto",
+    "getStarted": "Comenzar"
+  },
+  "services": {
+    "title": "Nuestros servicios digitales para hacer crecer tu marca",
+    "subtitle": "NUESTROS SERVICIOS",
+    "description": "Impulsa el crecimiento de tu marca con soluciones digitales personalizadas que inspiran, innovan y entregan resultados.",
+    "allServices": "Todos los Servicios",
+    "creativeStrategy": {
+      "title": "Estrategia Creativa",
+      "description": "Desbloquea tu potencial creativo con la Estrategia Creativa de NSP. Nuestro enfoque innovador te ayudará a desarrollar estrategias únicas y efectivas para hacer que tu marca se destaque de la competencia."
+    },
+    "digitalSolution": {
+      "title": "Solución Digital", 
+      "description": "Experimenta la solución digital definitiva con NSP. Nuestro equipo profesional se dedica a brindar servicios digitales de primera clase que llevarán tu negocio a nuevas alturas."
+    },
+    "analysisReport": {
+      "title": "Análisis e Informe",
+      "description": "NSP es tu solución ideal para análisis profesional y reportes. Con nuestras herramientas de vanguardia y experiencia, proporcionamos información integral e informes detallados que te ayudarán a tomar decisiones informadas para tu negocio."
+    }
+  },
+  "trustedPartners": {
+    "title": "Marcas Confiables. Resultados Comprobados.",
+    "description": "Confiado por diversos clientes, entregamos estrategias impactantes que fomentan el crecimiento y relaciones duraderas.",
+    "cta": "¿Listo para unirte a nuestra familia de clientes exitosos?",
+    "button": "Comienza Tu Historia de Éxito"
+  },
+  "whyChoose": {
+    "title": "Por Qué Elegir",
+    "subtitle": "Experiencia para tu viaje de crecimiento digital", 
+    "description": "Nuestro equipo dedicado se compromete a entender tus necesidades únicas, asegurando que proporcionemos estrategias innovadoras que generen resultados. Con enfoque en calidad e integridad.",
+    "dataApproach": {
+      "title": "Enfoque Basado en Datos",
+      "description": "Aprovechamos datos e insights para tomar decisiones informadas que conduzcan a soluciones más efectivas y eficientes."
+    },
+    "competitivePricing": {
+      "title": "Precios Competitivos",
+      "description": "Ofrecemos nuestros servicios de alta calidad a precios competitivos, brindándote un gran valor por tu inversión."
+    },
+    "transparentCommunication": {
+      "title": "Comunicación Transparente", 
+      "description": "Mantenemos los más altos niveles de profesionalismo y estándares éticos en todas nuestras relaciones comerciales."
+    }
+  },
+  "stats": {
+    "clients": "140K+",
+    "clientsLabel": "Clientes Satisfechos",
+    "projects": "50K+", 
+    "projectsLabel": "Proyectos Realizados",
+    "experience": "12+",
+    "experienceLabel": "Años de Experiencia",
+    "awards": "25+",
+    "awardsLabel": "Premios Ganados"
+  },
+  "footer": {
+    "companyName": "NSP Global Services",
+    "description": "Tu socio confiable para la transformación digital y el crecimiento.",
+    "quickLinks": "Enlaces Rápidos",
+    "servicesFooter": "Servicios",
+    "company": "Empresa",
+    "support": "Soporte",
+    "links": {
+      "home": "Inicio",
+      "about": "Acerca de", 
+      "services": "Servicios",
+      "portfolio": "Portafolio",
+      "contact": "Contacto",
+      "seo": "Servicios SEO",
+      "ppc": "Gestión PPC", 
+      "webDev": "Desarrollo Web",
+      "appDev": "Desarrollo de Apps",
+      "careers": "Carreras",
+      "blog": "Blog",
+      "testimonials": "Testimonios",
+      "helpCenter": "Centro de Ayuda",
+      "documentation": "Documentación",
+      "liveChat": "Chat en Vivo"
+    },
+    "stayUpdated": "Mantente Actualizado",
+    "newsletterDescription": "Recibe los últimos consejos de SEO, noticias de la industria y ofertas exclusivas en tu bandeja de entrada.",
+    "subscribe": "Suscribirse",
+    "languages": "Idiomas",
+    "followUs": "Síguenos",
+    "copyright": "Todos los Derechos Reservados",
+    "privacyPolicy": "Política de Privacidad",
+    "termsOfService": "Términos de Servicio"
+  }
+}

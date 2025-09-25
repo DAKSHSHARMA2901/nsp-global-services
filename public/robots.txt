@@ -1,0 +1,26 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://nspglobalservices.com/sitemap.xml
+
+# Block any sensitive areas
+Disallow: /admin/
+Disallow: /_next/
+Disallow: /api/
+
+# Allow crawling of images
+Allow: /images/
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.png$
+Allow: /*.gif$
+Allow: /*.webp$
+Allow: /*.svg$
+
+# Block common crawlers that might impact performance
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /

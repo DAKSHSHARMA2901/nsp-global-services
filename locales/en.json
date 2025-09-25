@@ -1,0 +1,248 @@
+{
+  "hero": {
+    "title": "Expert AI-Powered",
+    "typedStrings": ["Digital Marketing", "Paid Advertisement", "Website Development", "Mobile App Development"],
+    "subtitle": "Drive Your Growth",
+    "description": "Transform Your Vision into Reality with Innovative Digital Solutions. Let's Build Your Success Together",
+    "yearsOfSuccess": "Years of Success",
+    "yearsCount": "12",
+    "getInTouch": "Get In Touch"
+  },
+  "header": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "portfolio": "Portfolio", 
+    "contact": "Contact",
+    "getStarted": "Get Started"
+  },
+  "services": {
+    "title": "Our digital services to grow your brand",
+    "subtitle": "OUR SERVICES",
+    "description": "Fuel your brand's growth with tailored digital solutions that inspire, innovate, and deliver results.",
+    "allServices": "All Services",
+    "creativeStrategy": {
+      "title": "Creative Strategy",
+      "description": "Unlock your creative potential with NSP's Creative Strategy. Our innovative approach will help you develop unique and effective strategies to make your brand stand out from the competition."
+    },
+    "digitalSolution": {
+      "title": "Digital Solution", 
+      "description": "Experience the ultimate digital solution with NSP. Our professional team is dedicated to providing top-notch digital services that will take your business to new heights."
+    },
+    "analysisReport": {
+      "title": "Analysis & Report",
+      "description": "NSP is your go-to solution for professional analysis and reporting. With our cutting-edge tools and expertise, we provide comprehensive insights and detailed reports that will help you make informed decisions for your business."
+    }
+  },
+  "trustedPartners": {
+    "title": "Trusted Brands. Proven Results.",
+    "description": "Trusted by diverse clients, we deliver impactful strategies that foster growth and lasting relationships.",
+    "cta": "Ready to join our successful client family?",
+    "button": "Start Your Success Story"
+  },
+  "whyChoose": {
+    "title": "Why Choose",
+    "subtitle": "Expertise for your digital growth journey", 
+    "description": "Our dedicated team is committed to understanding your unique needs, ensuring that we provide innovative strategies that drive results. With a focus on quality and integrity.",
+    "dataApproach": {
+      "title": "Data-Driven Approach",
+      "description": "We leverage data and insights to make informed decisions that lead to more effective and efficient solutions."
+    },
+    "competitivePricing": {
+      "title": "Competitive Pricing",
+      "description": "We offer our top-quality services at competitive prices, providing you with great value for your investment."
+    },
+    "transparentCommunication": {
+      "title": "Transparent Communication", 
+      "description": "We maintain the highest level of professionalism and ethical standards in all our business dealings."
+    }
+  },
+  "stats": {
+    "clients": "140K+",
+    "clientsLabel": "Happy Clients",
+    "projects": "50K+", 
+    "projectsLabel": "Projects Done",
+    "experience": "12+",
+    "experienceLabel": "Years Experience",
+    "awards": "25+",
+    "awardsLabel": "Awards Won"
+  },
+  "expertise": {
+    "title": "Our Digital Marketing Services to grow your brand",
+    "boostRankings": "+60%",
+    "boostRankingsLabel": "Boost in Organic Rankings",
+    "trafficGrowth": "+30%",
+    "trafficGrowthLabel": "Month-on-Month Traffic Growth",
+    "socialMedia": {
+      "title": "Social Media Marketing",
+      "description": "Empower your brand with social media strategies that deliver results. With a jaw-dropping 29 ROAS in Meta Ads, we redefine success by crafting powerful content, sparking engagement, and driving unstoppable growth."
+    },
+    "ecommerce": {
+      "title": "E-commerce Solutions",
+      "description": "Ignite your store's growth by driving organic traffic, climbing search rankings, and converting clicks into customers with expert, results-driven optimization."
+    },
+    "ppcService": {
+      "title": "PPC (Pay-Per-Click):",
+      "description": "Drive immediate results with our expertly managed PPC campaigns. From Google Ads to social media advertising, we maximize your ROI with precision targeting and data-driven optimization."
+    },
+    "seoService": {
+      "title": "SEO (Search Engine Optimization):",
+      "description": "Dominate search results with our comprehensive SEO strategies. We boost your organic visibility, drive qualified traffic, and help you outrank competitors with proven white-hat techniques."
+    }
+  },
+  "processSteps": {
+    "subtitle": "HOW IT WORK",
+    "title": "Our Trusted Method for Delivering Results",
+    "description": "Our trusted approach blends in-depth research, strategic planning, and creative execution to craft personalized solutions designed to achieve impactful, measurable outcomes.",
+    "discovery": {
+      "title": "Discovery Phase",
+      "description": "We research your brand, goals, and audience, conduct market analysis, and craft a strategy tailored to your success."
+    },
+    "implementation": {
+      "title": "Implementation",
+      "description": "Executing strategies using advanced tools, we create, optimize, and monitor campaigns, ensuring seamless delivery and measurable results."
+    },
+    "collaboration": {
+      "title": "Collaboration",
+      "description": "Open communication and feedback drive our partnership, with transparent updates and refinement to align with your evolving needs."
+    }
+  },
+  "keyBenefits": {
+    "seo": {
+      "title": "Search Engine Optimization",
+      "description": "Our SEO services help improve your website's visibility in search engines like Google. We use on-page and off-page optimization best practices to boost your rankings, organic traffic, and conversions. As a premier SEO agency, we focus on long-term results through ethical white hat SEO techniques."
+    },
+    "ppc": {
+      "title": "Pay-Per-Click (PPC)",
+      "description": "Our PPC management services help you connect with your audience by placing ads on Google, Bing, Facebook, Instagram and other paid channels. As a top PPC ad agency, we create optimized PPC campaigns aimed at lowering your cost per click and delivering the best return on ad spend."
+    },
+    "webDesign": {
+      "title": "Web Design & Development",
+      "description": "Our talented web designers and developers create custom websites aligned with your brand image. We build sites that are fast, mobile-friendly, user-friendly, and optimized for higher conversions. As one of the best web design agencies near you, we build websites that users and search engines will love."
+    },
+    "appDesign": {
+      "title": "App design & Development",
+      "description": "We provide continuous support and maintenance to keep your digital assets at their best. Our comprehensive app development services ensure your mobile presence drives engagement and conversions."
+    }
+  },
+  "joinAgency": {
+    "subtitle": "JOIN AGENCY",
+    "title": "Join our agency of creative innovators",
+    "description": "Join our creative community to collaborate, innovate, and thrive together. We welcome passionate individuals eager to make an impact.",
+    "twitter": "Follow Us On Twitter",
+    "linkedin": "Join Us On LinkedIn",
+    "facebook": "Join Us On Facebook"
+  },
+  "features": {
+    "title": "Get an SEO Advantage at Every Stage",
+    "subtitle": "Being successful with SEO is about making smart decisions. Our unique tools give you accurate insights for every stage of optimization.",
+    "analytics": {
+      "title": "Advanced Analytics",
+      "description": "Get detailed insights into your website's performance with comprehensive analytics and reporting tools."
+    },
+    "keywordResearch": {
+      "title": "Keyword Research",
+      "description": "Discover high-performing keywords with our advanced research tools and competitive analysis."
+    },
+    "technicalSeo": {
+      "title": "Technical SEO Audit",
+      "description": "Identify and fix technical issues that may be holding your website back from ranking higher."
+    },
+    "rankTracking": {
+      "title": "Rank Tracking",
+      "description": "Monitor your search engine rankings across multiple keywords and geographic locations."
+    },
+    "backlinkAnalysis": {
+      "title": "Backlink Analysis",
+      "description": "Analyze your backlink profile and discover new link-building opportunities."
+    },
+    "pageSpeed": {
+      "title": "Page Speed Optimization",
+      "description": "Improve your website's loading speed and user experience with our optimization techniques."
+    },
+    "whyChoose": {
+      "title": "Why Choose NSP Global Services?",
+      "datadriven": {
+        "title": "Data-Driven Approach",
+        "description": "We leverage data and insights to make informed decisions that lead to more effective and efficient solutions."
+      },
+      "pricing": {
+        "title": "Competitive Pricing",
+        "description": "We offer top-quality services at competitive prices, providing you with great value for your investment."
+      },
+      "communication": {
+        "title": "Transparent Communication",
+        "description": "We maintain the highest level of professionalism and ethical standards in all our business dealings."
+      },
+      "stats": {
+        "years": "12+",
+        "yearsLabel": "Years of Excellence",
+        "projects": "500+",
+        "projectsLabel": "Successful Projects",
+        "satisfaction": "98%",
+        "satisfactionLabel": "Client Satisfaction"
+      }
+    }
+  },
+  "testimonials": {
+    "title": "What Our Clients Say",
+    "subtitle": "Trusted by businesses worldwide, we deliver impactful strategies that foster growth and lasting relationships.",
+    "reviews": {
+      "google": "4.9/5 on Google Reviews",
+      "trustpilot": "4.8/5 on Trustpilot",
+      "clutch": "4.7/5 on Clutch"
+    }
+  },
+  "footer": {
+    "companyName": "NSP Global Services",
+    "description": "Your trusted partner for digital transformation and growth.",
+    "quickLinks": "Quick Links",
+    "servicesFooter": "Services",
+    "company": "Company",
+    "support": "Support",
+    "links": {
+      "home": "Home",
+      "about": "About Us", 
+      "services": "Services",
+      "portfolio": "Portfolio",
+      "contact": "Contact",
+      "seo": "SEO Services",
+      "ppc": "PPC Management", 
+      "webDev": "Web Development",
+      "appDev": "App Development",
+      "careers": "Careers",
+      "blog": "Blog",
+      "testimonials": "Testimonials",
+      "helpCenter": "Help Center",
+      "documentation": "Documentation",
+      "liveChat": "Live Chat"
+    },
+    "stayUpdated": "Stay Updated",
+    "newsletterDescription": "Get the latest SEO tips, industry news, and exclusive offers delivered to your inbox.",
+    "subscribe": "Subscribe",
+    "languages": "Languages",
+    "followUs": "Follow Us",
+    "copyright": "All Right Reserved",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service"
+  },
+  "contact": {
+    "pageTitle": "Contact NSP for Expert Digital Marketing Services",
+    "pageDescription": "Ready to boost your online presence? Contact our digital marketing experts today for tailored solutions and expert advice.",
+    "bannerSubtitle": "Ready to boost your online presence? Let's connect!",
+    "title": "Contact Us",
+    "subtitle": "We Want to Hear from You",
+    "description": "Are you eager to elevate your business to new heights? Look no further! Our digital marketing agency specializes in crafting strategic campaigns tailored to your needs. With our expertise in social media, SEO, Paid Advertising, and content creation, we can help you increase brand exposure and drive more traffic to your website. Say goodbye to ineffective marketing strategies and hello to results-driven solutions. Let us take your business from good to great - contact us today!",
+    "emailLabel": "Email Address",
+    "emailAddress": "info@nspglobalservices.com",
+    "form": {
+      "title": "Write a Message",
+      "namePlaceholder": "Your Name",
+      "emailPlaceholder": "Your email",
+      "phonePlaceholder": "Phone number",
+      "messagePlaceholder": "Write your comment here",
+      "submitButton": "Send"
+    },
+    "toolsTitle": "Tools We Use"
+  }
+}

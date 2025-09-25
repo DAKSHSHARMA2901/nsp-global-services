@@ -1,36 +1,155 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# NSP Global Services - Professional Website
 
-## Getting Started
+This is a modern, professional website for NSP Global Services built with Next.js 15 and Tailwind CSS, inspired by the clean design of industry-leading platforms like RankTracker.
 
-First, run the development server:
+## 🚀 Features
 
+- **Modern Design**: Clean, professional layout inspired by top-tier SaaS platforms
+- **Fully Responsive**: Optimized for all device sizes (mobile, tablet, desktop)
+- **SEO Optimized**: Built with SEO best practices and proper meta tags
+- **Fast Performance**: Next.js 15 with Turbopack for lightning-fast development
+- **Interactive Components**: Smooth animations and hover effects
+- **Accessible**: WCAG compliant with proper focus states and semantic HTML
+
+## 🛠 Technology Stack
+
+- **Framework**: Next.js 15
+- **Styling**: Tailwind CSS v4
+- **Font**: Inter (Google Fonts)
+- **Icons**: SVG icons for better performance
+- **TypeScript**: Full type safety
+
+## 📦 Installation
+
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone <repository-url>
+cd nsp-website-html
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Start the development server:
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Learn More
+## 🏗 Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```
+src/
+├── app/
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+└── components/
+    ├── Header.tsx
+    ├── HeroSection.tsx
+    ├── ServicesSection.tsx
+    ├── FeaturesSection.tsx
+    ├── StatsSection.tsx
+    ├── TestimonialsSection.tsx
+    └── Footer.tsx
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎨 Design Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Header
+- Sticky navigation with clean design
+- Mobile-responsive hamburger menu
+- Professional logo and call-to-action button
 
-## Deploy on Vercel
+### Hero Section
+- Compelling headline with gradient background
+- Key statistics and trust indicators
+- Primary and secondary call-to-action buttons
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Services Section
+- Four main service cards with icons and features
+- Clean grid layout with hover effects
+- Professional service descriptions
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Features Section
+- Six key features with colored icons
+- "Why Choose Us" section with benefits
+- Statistics showcase
+
+### Statistics Section
+- Key performance metrics
+- Company partnerships and certifications
+- Industry recognition badges
+
+### Testimonials
+- Interactive carousel with client reviews
+- Star ratings and professional headshots
+- Review platform summaries
+
+### Footer
+- Comprehensive site links organized by category
+- Contact information and social media
+- Newsletter signup form
+
+## 🚀 Deployment
+
+### Build for production:
+```bash
+npm run build
+```
+
+### Start production server:
+```bash
+npm start
+```
+
+## 📱 Responsive Design
+
+The website is fully responsive with breakpoints for:
+- Mobile: 320px - 768px
+- Tablet: 768px - 1024px
+- Desktop: 1024px+
+
+## 🔧 Customization
+
+### Colors
+The website uses a professional blue color scheme that can be customized in the Tailwind configuration:
+- Primary: Blue (600-800)
+- Secondary: Yellow (400)
+- Gray scale: 50-900
+
+### Typography
+Using Inter font for modern, professional appearance with proper font weights and spacing.
+
+### Components
+All components are modular and can be easily customized or reused across different pages.
+
+## 📈 Performance
+
+- **Core Web Vitals**: Optimized for excellent scores
+- **Image Optimization**: Next.js automatic image optimization
+- **Font Loading**: Optimized font loading with display: swap
+- **CSS**: Minimal custom CSS, leveraging Tailwind utilities
+
+## 🔒 SEO Features
+
+- Semantic HTML structure
+- Proper heading hierarchy
+- Meta tags and Open Graph
+- Structured data ready
+- Accessible navigation
+- Fast loading times
+
+## 📞 Contact
+
+For any questions about this website:
+- Email: info@nspglobalservices.com
+- Phone: +44 7436 220544
+- Website: https://www.nspglobalservices.com
+
+## 📄 License
+
+© 2025 NSP Global Services. All rights reserved.

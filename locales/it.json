@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "title": "Servizi SEO e Marketing Digitale - NSP Global Services",
+    "description": "Trasforma la tua presenza digitale con le nostre strategie SEO basate sull'AI e le soluzioni complete di marketing digitale.",
+    "keywords": "SEO, marketing digitale, ottimizzazione, PPC, sviluppo web, posizionamento"
+  },
+  "header": {
+    "home": "Home",
+    "services": "Servizi",
+    "about": "Chi siamo",
+    "blog": "Blog",
+    "contact": "Contatti",
+    "getQuote": "Richiedi preventivo"
+  },
+  "footer": {
+    "languages": "Lingue",
+    "stayUpdated": "Rimani aggiornato",
+    "newsletterDescription": "Ricevi le ultime tendenze del marketing digitale e consigli SEO direttamente nella tua casella di posta.",
+    "subscribe": "Iscriviti"
+  },
+  "home": {
+    "title": "Servizi SEO e Marketing Digitale di Punta",
+    "subtitle": "Trasforma la tua presenza digitale con le nostre strategie SEO basate sull'AI e le soluzioni complete di marketing digitale.",
+    "getStarted": "Inizia ora",
+    "learnMore": "Scopri di più",
+    "features": {
+      "seo": {
+        "title": "Ottimizzazione SEO",
+        "description": "Migliora la tua visibilità online con le nostre tecniche SEO avanzate."
+      },
+      "ppc": {
+        "title": "Pubblicità PPC",
+        "description": "Massimizza il tuo ROI con le nostre campagne pubblicitarie mirate."
+      },
+      "webDev": {
+        "title": "Sviluppo Web",
+        "description": "Crea siti web moderni e responsive che convertono."
+      }
+    }
+  },
+  "about": {
+    "title": "Chi siamo",
+    "description": "Siamo un'agenzia di marketing digitale leader specializzata in servizi SEO e soluzioni di marketing digitale.",
+    "mission": "La nostra missione è aiutare le aziende a prosperare nel panorama digitale.",
+    "vision": "La nostra visione è essere il partner di fiducia per la trasformazione digitale."
+  },
+  "services": {
+    "title": "I nostri servizi",
+    "seo": "Servizi SEO",
+    "ppc": "Pubblicità PPC",
+    "webDesign": "Web Design",
+    "contentMarketing": "Content Marketing",
+    "socialMedia": "Social Media",
+    "analytics": "Analisi e Report"
+  },
+  "contact": {
+    "title": "Contattaci",
+    "name": "Nome",
+    "email": "Email",
+    "message": "Messaggio",
+    "send": "Invia",
+    "phone": "Telefono",
+    "address": "Indirizzo"
+  },
+  "common": {
+    "loading": "Caricamento...",
+    "error": "Errore",
+    "success": "Successo",
+    "readMore": "Leggi di più",
+    "viewAll": "Vedi tutto",
+    "close": "Chiudi",
+    "save": "Salva",
+    "cancel": "Annulla",
+    "edit": "Modifica",
+    "delete": "Elimina",
+    "confirm": "Conferma"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "title": "Services SEO et Marketing Numérique - NSP Global Services",
+    "description": "Transformez votre présence numérique avec nos stratégies SEO alimentées par l'IA et nos solutions de marketing numérique complètes.",
+    "keywords": "SEO, marketing numérique, référencement, PPC, développement web, optimisation"
+  },
+  "header": {
+    "home": "Accueil",
+    "services": "Services",
+    "about": "À propos",
+    "blog": "Blog",
+    "contact": "Contact",
+    "getQuote": "Obtenir un devis"
+  },
+  "footer": {
+    "languages": "Langues",
+    "stayUpdated": "Restez informé",
+    "newsletterDescription": "Recevez les dernières tendances en marketing numérique et conseils SEO directement dans votre boîte de réception.",
+    "subscribe": "S'abonner"
+  },
+  "home": {
+    "title": "Services SEO et Marketing Numérique de Premier Plan",
+    "subtitle": "Transformez votre présence numérique avec nos stratégies SEO alimentées par l'IA et nos solutions de marketing numérique complètes.",
+    "getStarted": "Commencer",
+    "learnMore": "En savoir plus",
+    "features": {
+      "seo": {
+        "title": "Optimisation SEO",
+        "description": "Améliorez votre visibilité en ligne avec nos techniques SEO avancées."
+      },
+      "ppc": {
+        "title": "Publicité PPC",
+        "description": "Maximisez votre ROI avec nos campagnes publicitaires ciblées."
+      },
+      "webDev": {
+        "title": "Développement Web",
+        "description": "Créez des sites web modernes et réactifs qui convertissent."
+      }
+    }
+  },
+  "about": {
+    "title": "À propos de nous",
+    "description": "Nous sommes une agence de marketing numérique de premier plan spécialisée dans les services SEO et les solutions de marketing numérique.",
+    "mission": "Notre mission est d'aider les entreprises à prospérer dans le paysage numérique.",
+    "vision": "Notre vision est d'être le partenaire de confiance pour la transformation numérique."
+  },
+  "services": {
+    "title": "Nos Services",
+    "seo": "Services SEO",
+    "ppc": "Publicité PPC",
+    "webDesign": "Conception Web",
+    "contentMarketing": "Marketing de Contenu",
+    "socialMedia": "Médias Sociaux",
+    "analytics": "Analyses et Rapports"
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "name": "Nom",
+    "email": "Email",
+    "message": "Message",
+    "send": "Envoyer",
+    "phone": "Téléphone",
+    "address": "Adresse"
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "success": "Succès",
+    "readMore": "Lire la suite",
+    "viewAll": "Voir tout",
+    "close": "Fermer",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "edit": "Modifier",
+    "delete": "Supprimer",
+    "confirm": "Confirmer"
+  }
+}
