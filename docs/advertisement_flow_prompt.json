@@ -1,0 +1,337 @@
+{
+  "advertisement_flow_prompt": {
+    "campaign_flow": {
+      "flow_name": "NSP Global Services - Customer Acquisition Flow",
+      "flow_type": "multi_touch_attribution",
+      "total_stages": 7,
+      "estimated_duration": "30-90_days",
+      "conversion_goal": "qualified_lead_to_customer"
+    },
+    "flow_stages": [
+      {
+        "stage": 1,
+        "name": "awareness",
+        "objective": "brand_discovery",
+        "duration": "1-7_days",
+        "touchpoints": [
+          {
+            "platform": "google_ads",
+            "ad_type": "display_campaign",
+            "targeting": "interest_based",
+            "message": "Discover how NSP Global Services helps businesses grow with proven digital marketing strategies",
+            "cta": "Learn More",
+            "budget_allocation": "15%",
+            "expected_reach": "50000_impressions"
+          },
+          {
+            "platform": "facebook_ads",
+            "ad_type": "video_awareness",
+            "targeting": "lookalike_audience",
+            "message": "Watch how we helped 500+ businesses achieve 300% growth",
+            "cta": "Watch Success Stories",
+            "budget_allocation": "20%",
+            "expected_reach": "30000_views"
+          }
+        ],
+        "success_metrics": {
+          "impressions": "80000",
+          "reach": "60000",
+          "brand_awareness_lift": "25%",
+          "video_view_rate": "65%"
+        },
+        "next_stage_trigger": "user_engages_with_content"
+      },
+      {
+        "stage": 2,
+        "name": "interest",
+        "objective": "problem_identification",
+        "duration": "3-14_days",
+        "touchpoints": [
+          {
+            "platform": "google_ads",
+            "ad_type": "search_campaign",
+            "targeting": "intent_keywords",
+            "message": "Struggling with low website traffic? Get a free SEO audit and see where you rank",
+            "cta": "Get Free Audit",
+            "budget_allocation": "25%",
+            "keywords": ["seo audit", "website traffic low", "improve google rankings"]
+          },
+          {
+            "platform": "linkedin_ads",
+            "ad_type": "sponsored_content",
+            "targeting": "job_title_based",
+            "message": "Are you wasting money on marketing that doesn't convert? Download our ROI calculator",
+            "cta": "Download Calculator",
+            "budget_allocation": "15%",
+            "lead_magnet": "marketing_roi_calculator.pdf"
+          }
+        ],
+        "success_metrics": {
+          "click_through_rate": "3.5%",
+          "landing_page_views": "5000",
+          "lead_magnet_downloads": "500",
+          "email_signups": "300"
+        },
+        "next_stage_trigger": "downloads_lead_magnet_or_requests_audit"
+      },
+      {
+        "stage": 3,
+        "name": "consideration",
+        "objective": "solution_education",
+        "duration": "7-21_days",
+        "touchpoints": [
+          {
+            "platform": "email_marketing",
+            "ad_type": "nurture_sequence",
+            "targeting": "lead_magnet_downloaders",
+            "message": "5-part email series: How to build a marketing system that actually works",
+            "cta": "Read Case Study",
+            "budget_allocation": "10%",
+            "sequence_length": "5_emails"
+          },
+          {
+            "platform": "facebook_ads",
+            "ad_type": "retargeting_carousel",
+            "targeting": "website_visitors",
+            "message": "See how we helped similar businesses like yours achieve measurable results",
+            "cta": "View Case Studies",
+            "budget_allocation": "20%",
+            "retargeting_window": "14_days"
+          }
+        ],
+        "success_metrics": {
+          "email_open_rate": "45%",
+          "email_click_rate": "15%",
+          "case_study_views": "800",
+          "time_on_page": "3_minutes"
+        },
+        "next_stage_trigger": "views_case_studies_or_pricing_page"
+      },
+      {
+        "stage": 4,
+        "name": "intent",
+        "objective": "consultation_booking",
+        "duration": "1-7_days",
+        "touchpoints": [
+          {
+            "platform": "google_ads",
+            "ad_type": "search_campaign",
+            "targeting": "high_intent_keywords",
+            "message": "Ready to grow? Book a free strategy session with our digital marketing experts",
+            "cta": "Book Free Consultation",
+            "budget_allocation": "15%",
+            "keywords": ["digital marketing consultant", "free marketing consultation", "marketing strategy session"]
+          },
+          {
+            "platform": "website_popup",
+            "ad_type": "exit_intent",
+            "targeting": "pricing_page_visitors",
+            "message": "Wait! Get a personalized marketing strategy for your business - completely free",
+            "cta": "Claim Free Strategy",
+            "budget_allocation": "5%",
+            "trigger": "exit_intent_or_time_based"
+          }
+        ],
+        "success_metrics": {
+          "consultation_bookings": "50",
+          "form_completion_rate": "25%",
+          "calendar_click_rate": "12%",
+          "booking_conversion_rate": "8%"
+        },
+        "next_stage_trigger": "books_consultation_or_contacts_sales"
+      },
+      {
+        "stage": 5,
+        "name": "evaluation",
+        "objective": "trust_building",
+        "duration": "1-14_days",
+        "touchpoints": [
+          {
+            "platform": "sales_call",
+            "ad_type": "consultation_session",
+            "targeting": "booked_prospects",
+            "message": "Free 45-minute strategy session with actionable insights for your business",
+            "cta": "Attend Your Session",
+            "budget_allocation": "0%",
+            "follow_up_sequence": "post_call_nurture"
+          },
+          {
+            "platform": "email_marketing",
+            "ad_type": "proposal_follow_up",
+            "targeting": "consultation_attendees",
+            "message": "Your custom marketing proposal + next steps to achieve your growth goals",
+            "cta": "Review Proposal",
+            "budget_allocation": "5%",
+            "personalization": "high"
+          }
+        ],
+        "success_metrics": {
+          "consultation_attendance_rate": "75%",
+          "proposal_open_rate": "85%",
+          "proposal_review_time": "10_minutes",
+          "follow_up_response_rate": "60%"
+        },
+        "next_stage_trigger": "reviews_proposal_or_asks_questions"
+      },
+      {
+        "stage": 6,
+        "name": "purchase",
+        "objective": "contract_signing",
+        "duration": "1-7_days",
+        "touchpoints": [
+          {
+            "platform": "email_marketing",
+            "ad_type": "closing_sequence",
+            "targeting": "proposal_reviewers",
+            "message": "Ready to start growing? Let's get your marketing campaign launched this month",
+            "cta": "Sign Contract",
+            "budget_allocation": "5%",
+            "urgency_factor": "limited_time_bonus"
+          },
+          {
+            "platform": "phone_call",
+            "ad_type": "objection_handling",
+            "targeting": "hesitant_prospects",
+            "message": "Personal call to address concerns and customize the perfect solution",
+            "cta": "Schedule Final Call",
+            "budget_allocation": "0%",
+            "sales_approach": "consultative"
+          }
+        ],
+        "success_metrics": {
+          "contract_signature_rate": "35%",
+          "average_deal_size": "$3500",
+          "sales_cycle_length": "21_days",
+          "objection_resolution_rate": "70%"
+        },
+        "next_stage_trigger": "signs_contract_and_makes_payment"
+      },
+      {
+        "stage": 7,
+        "name": "retention",
+        "objective": "customer_success",
+        "duration": "ongoing",
+        "touchpoints": [
+          {
+            "platform": "email_marketing",
+            "ad_type": "onboarding_sequence",
+            "targeting": "new_customers",
+            "message": "Welcome to NSP! Here's your roadmap to success in the first 90 days",
+            "cta": "Access Client Portal",
+            "budget_allocation": "0%",
+            "sequence_length": "7_emails"
+          },
+          {
+            "platform": "client_portal",
+            "ad_type": "progress_updates",
+            "targeting": "active_customers",
+            "message": "Your monthly results dashboard + recommendations for continued growth",
+            "cta": "View Results",
+            "budget_allocation": "0%",
+            "frequency": "monthly"
+          }
+        ],
+        "success_metrics": {
+          "customer_satisfaction": "98%",
+          "retention_rate": "85%",
+          "upsell_rate": "40%",
+          "referral_rate": "25%"
+        },
+        "next_stage_trigger": "successful_results_lead_to_referrals"
+      }
+    ],
+    "flow_optimization": {
+      "conversion_tracking": {
+        "stage_1_to_2": "15%",
+        "stage_2_to_3": "25%",
+        "stage_3_to_4": "20%",
+        "stage_4_to_5": "60%",
+        "stage_5_to_6": "40%",
+        "stage_6_to_7": "100%"
+      },
+      "bottleneck_identification": [
+        {
+          "stage": "interest_to_consideration",
+          "issue": "low_email_engagement",
+          "solution": "improve_subject_lines_and_personalization"
+        },
+        {
+          "stage": "consideration_to_intent",
+          "issue": "case_study_completion_rate",
+          "solution": "shorter_more_visual_case_studies"
+        }
+      ],
+      "optimization_tests": [
+        {
+          "test_name": "landing_page_headline",
+          "stages_affected": [2, 4],
+          "hypothesis": "benefit_focused_headlines_increase_conversions",
+          "duration": "14_days"
+        },
+        {
+          "test_name": "consultation_booking_flow",
+          "stages_affected": [4, 5],
+          "hypothesis": "fewer_form_fields_increase_bookings",
+          "duration": "21_days"
+        }
+      ]
+    },
+    "automation_triggers": {
+      "behavioral_triggers": [
+        {
+          "trigger": "abandons_consultation_booking",
+          "action": "send_reminder_email_sequence",
+          "delay": "1_hour"
+        },
+        {
+          "trigger": "downloads_multiple_resources",
+          "action": "priority_lead_notification",
+          "delay": "immediate"
+        },
+        {
+          "trigger": "visits_pricing_page_3_times",
+          "action": "personal_outreach_from_sales",
+          "delay": "24_hours"
+        }
+      ],
+      "time_based_triggers": [
+        {
+          "trigger": "7_days_no_engagement",
+          "action": "re_engagement_campaign",
+          "content": "special_offer_or_new_case_study"
+        },
+        {
+          "trigger": "consultation_booked_no_show",
+          "action": "reschedule_sequence",
+          "duration": "3_email_sequence"
+        }
+      ]
+    },
+    "reporting_dashboard": {
+      "real_time_metrics": [
+        "current_stage_distribution",
+        "daily_conversions_by_stage",
+        "cost_per_acquisition_by_stage",
+        "revenue_attribution_by_touchpoint"
+      ],
+      "weekly_reports": [
+        "flow_performance_summary",
+        "bottleneck_analysis",
+        "optimization_recommendations",
+        "budget_reallocation_suggestions"
+      ],
+      "alerts": [
+        {
+          "metric": "stage_conversion_rate_drops_below_threshold",
+          "threshold": "20%_below_average",
+          "action": "immediate_email_notification"
+        },
+        {
+          "metric": "cost_per_lead_exceeds_budget",
+          "threshold": "$200_per_lead",
+          "action": "pause_underperforming_campaigns"
+        }
+      ]
+    }
+  }
+}

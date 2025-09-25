@@ -35,8 +35,11 @@ export default function Header() {
             <Link href="/services" className="text-gray-900 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors">
               {t('header.services')}
             </Link>
+            <Link href="/case-study" className="text-gray-900 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors">
+              {t('header.caseStudies')}
+            </Link>
             <Link href="/about" className="text-gray-900 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors">
-              {t('header.about')}
+              {t('header.About us')}
             </Link>
             <Link href="/contact" className="text-gray-900 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors">
               {t('header.contact')}
@@ -82,6 +85,9 @@ export default function Header() {
               </Link>
               <Link href="/services" className="block px-3 py-2 text-gray-900 hover:text-blue-600 text-sm font-medium">
                 {t('header.services')}
+              </Link>
+              <Link href="/case-study" className="block px-3 py-2 text-gray-900 hover:text-blue-600 text-sm font-medium">
+                {t('header.caseStudies')}
               </Link>
               <Link href="/about" className="block px-3 py-2 text-gray-900 hover:text-blue-600 text-sm font-medium">
                 {t('header.about')}

@@ -68,8 +68,18 @@ const ServicesMainseo = () => {
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
               {/* SEO Services */}
               <div className="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden">
-                <div className="relative h-48 bg-blue-600 flex items-center justify-center">
-                  <h3 className="text-2xl font-bold text-white">SEO</h3>
+                <div className="relative h-48 overflow-hidden">
+                  <Image
+                    src="https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                    alt="SEO Services - Search Engine Optimization"
+                    width={400}
+                    height={200}
+                    className="w-full h-full object-cover"
+                    loading="lazy"
+                  />
+                  <div className="absolute inset-0 bg-blue-600/80 flex items-center justify-center">
+                    <h3 className="text-2xl font-bold text-white">SEO</h3>
+                  </div>
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-bold text-gray-900 mb-3">
@@ -92,8 +102,18 @@ const ServicesMainseo = () => {
 
               {/* PPC Services */}
               <div className="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden">
-                <div className="relative h-48 bg-green-600 flex items-center justify-center">
-                  <h3 className="text-2xl font-bold text-white">PPC</h3>
+                <div className="relative h-48 overflow-hidden">
+                  <Image
+                    src="https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                    alt="PPC Services - Pay Per Click Advertising"
+                    width={400}
+                    height={200}
+                    className="w-full h-full object-cover"
+                    loading="lazy"
+                  />
+                  <div className="absolute inset-0 bg-green-600/80 flex items-center justify-center">
+                    <h3 className="text-2xl font-bold text-white">PPC</h3>
+                  </div>
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-bold text-gray-900 mb-3">
@@ -116,8 +136,18 @@ const ServicesMainseo = () => {
 
               {/* Content Marketing */}
               <div className="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden">
-                <div className="relative h-48 bg-purple-600 flex items-center justify-center">
-                  <h3 className="text-2xl font-bold text-white">Content</h3>
+                <div className="relative h-48 overflow-hidden">
+                  <Image
+                    src="https://images.unsplash.com/photo-1542744094-3a31f272c490?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                    alt="Content Marketing Services - Blog Writing and Strategy"
+                    width={400}
+                    height={200}
+                    className="w-full h-full object-cover"
+                    loading="lazy"
+                  />
+                  <div className="absolute inset-0 bg-purple-600/80 flex items-center justify-center">
+                    <h3 className="text-2xl font-bold text-white">Content</h3>
+                  </div>
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-bold text-gray-900 mb-3">
@@ -140,8 +170,18 @@ const ServicesMainseo = () => {
 
               {/* Design & Development */}
               <div className="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden">
-                <div className="relative h-48 bg-red-600 flex items-center justify-center">
-                  <h3 className="text-2xl font-bold text-white">Design</h3>
+                <div className="relative h-48 overflow-hidden">
+                  <Image
+                    src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                    alt="Design & Development Services - Web Development"
+                    width={400}
+                    height={200}
+                    className="w-full h-full object-cover"
+                    loading="lazy"
+                  />
+                  <div className="absolute inset-0 bg-red-600/80 flex items-center justify-center">
+                    <h3 className="text-2xl font-bold text-white">Design</h3>
+                  </div>
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-bold text-gray-900 mb-3">

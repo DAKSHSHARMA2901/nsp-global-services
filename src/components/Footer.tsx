@@ -71,7 +71,7 @@ export default function Footer() {
   ];
 
   const resourceLinks = [
-    { name: "About us", href: "/about-us" },
+    { name: "About us", href: "/about" },
     { name: "Blogs", href: "https://blogs.nspglobalservices.com/", target: "_blank" },
     { name: "Contact", href: "/contact" },
     { name: "Paid media for cbd", href: "/cannabis-advertising-agency/" },

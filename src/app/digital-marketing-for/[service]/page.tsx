@@ -1,5 +1,5 @@
 import React from 'react';
-import DigitalMarketingCaseStudy from '@/app/components/casestudy/DigitalMarketingCaseStudy';
+import DigitalMarketingCaseStudy from '@/components/casestudy/DigitalMarketingCaseStudy';
 
 interface PageParams {
     params: Promise<{

@@ -1,0 +1,169 @@
+{
+  "advertisement_prompt": {
+    "campaign_info": {
+      "campaign_name": "NSP Global Services - Digital Marketing Excellence",
+      "campaign_type": "multi_channel",
+      "duration": "30_days",
+      "budget": "$5000",
+      "start_date": "2025-10-01",
+      "end_date": "2025-10-31"
+    },
+    "target_audience": {
+      "demographics": {
+        "age_range": "25-55",
+        "gender": "all",
+        "income_level": "$50k+",
+        "education": "college_graduate",
+        "location": "United States, Canada, UK, Australia"
+      },
+      "psychographics": {
+        "interests": ["digital marketing", "business growth", "entrepreneurship", "technology", "e-commerce"],
+        "behaviors": ["actively seeking marketing services", "researches online solutions", "follows industry blogs"],
+        "pain_points": ["low online visibility", "poor ROI on marketing spend", "struggling with lead generation"]
+      },
+      "business_profile": {
+        "company_size": "small_to_medium_business",
+        "industry": ["e-commerce", "professional_services", "healthcare", "real_estate", "technology"],
+        "decision_makers": ["CEO", "Marketing Director", "Business Owner", "CMO"]
+      }
+    },
+    "ad_variations": [
+      {
+        "variant": "seo_focused",
+        "platform": "google_ads",
+        "format": "search_ad",
+        "headline_1": "Boost Your Rankings in 90 Days",
+        "headline_2": "Expert SEO Services | Proven Results",
+        "headline_3": "NSP Global Services - SEO Leaders",
+        "description_1": "Get 300% more organic traffic with our data-driven SEO strategies. Free consultation included.",
+        "description_2": "12+ years experience. 500+ successful projects. 98% client satisfaction. Start growing today!",
+        "call_to_action": "Get Free SEO Audit",
+        "landing_page": "https://nspglobalservices.com/seo-services",
+        "keywords": ["seo services", "search engine optimization", "increase website traffic", "google rankings"]
+      },
+      {
+        "variant": "ppc_focused",
+        "platform": "facebook_ads",
+        "format": "carousel_ad",
+        "headline": "Turn Clicks Into Customers",
+        "description": "Our PPC experts deliver 29x ROAS on Meta Ads. Stop wasting money on ads that don't convert.",
+        "carousel_cards": [
+          {
+            "image": "ppc_results_chart.jpg",
+            "headline": "29x Return on Ad Spend",
+            "description": "Real results from real campaigns"
+          },
+          {
+            "image": "before_after_metrics.jpg",
+            "headline": "300% Traffic Increase",
+            "description": "Average client growth in 3 months"
+          },
+          {
+            "image": "client_testimonial.jpg",
+            "headline": "500+ Happy Clients",
+            "description": "Join our success stories"
+          }
+        ],
+        "call_to_action": "Start Free Consultation",
+        "landing_page": "https://nspglobalservices.com/ppc-services"
+      },
+      {
+        "variant": "general_brand",
+        "platform": "linkedin_ads",
+        "format": "sponsored_content",
+        "headline": "Scale Your Business with Digital Marketing That Actually Works",
+        "description": "NSP Global Services has helped 500+ businesses achieve measurable growth. SEO, PPC, Web Development & More.",
+        "body_text": "Stop guessing what works. Our data-driven approach has generated millions in revenue for clients across industries. From SEO that ranks to PPC that converts, we deliver results you can measure.\n\n✅ 12+ Years Experience\n✅ 500+ Successful Projects\n✅ 98% Client Satisfaction\n✅ Proven ROI\n\nReady to grow?",
+        "call_to_action": "Schedule Strategy Call",
+        "landing_page": "https://nspglobalservices.com/contact"
+      }
+    ],
+    "creative_assets": {
+      "images": {
+        "primary_logo": "nsp_logo_horizontal.png",
+        "hero_image": "team_working_digital_marketing.jpg",
+        "results_infographic": "client_results_infographic.png",
+        "before_after_charts": "performance_comparison_charts.png"
+      },
+      "videos": {
+        "client_testimonial": "client_success_story_30sec.mp4",
+        "service_overview": "nsp_services_explainer_60sec.mp4",
+        "results_showcase": "case_study_results_45sec.mp4"
+      },
+      "brand_colors": {
+        "primary": "#3B82F6",
+        "secondary": "#1D4ED8",
+        "accent": "#F59E0B",
+        "text": "#1F2937"
+      }
+    },
+    "messaging_framework": {
+      "value_propositions": [
+        "Data-driven strategies that deliver measurable results",
+        "12+ years of proven digital marketing expertise",
+        "500+ successful projects across industries",
+        "98% client satisfaction rate",
+        "Transparent reporting and communication"
+      ],
+      "pain_points_addressed": [
+        "Low website traffic and poor search rankings",
+        "Wasted advertising spend with poor ROI",
+        "Lack of qualified leads and conversions",
+        "Difficulty measuring marketing effectiveness",
+        "No clear digital marketing strategy"
+      ],
+      "competitive_advantages": [
+        "Personalized strategies tailored to each business",
+        "Full-service digital marketing under one roof",
+        "Experienced team of certified professionals",
+        "Cutting-edge tools and technologies",
+        "24/7 support and dedicated account management"
+      ]
+    },
+    "performance_metrics": {
+      "primary_kpis": [
+        "click_through_rate",
+        "conversion_rate",
+        "cost_per_acquisition",
+        "return_on_ad_spend",
+        "lead_quality_score"
+      ],
+      "success_benchmarks": {
+        "ctr_minimum": "2.5%",
+        "conversion_rate_target": "5%",
+        "cpa_maximum": "$150",
+        "roas_target": "4:1",
+        "lead_to_customer_rate": "20%"
+      }
+    },
+    "a_b_testing": {
+      "test_elements": [
+        "headlines",
+        "call_to_action_buttons",
+        "images_vs_videos",
+        "landing_page_variants",
+        "audience_segments"
+      ],
+      "testing_duration": "14_days",
+      "confidence_level": "95%",
+      "minimum_sample_size": "1000_impressions"
+    },
+    "compliance_and_guidelines": {
+      "platform_policies": [
+        "google_ads_policy_compliant",
+        "facebook_advertising_standards",
+        "linkedin_professional_guidelines"
+      ],
+      "legal_disclaimers": [
+        "Results may vary based on industry and implementation",
+        "Past performance does not guarantee future results",
+        "Free consultation subject to qualifying criteria"
+      ],
+      "brand_guidelines": {
+        "tone_of_voice": "professional, confident, results-focused",
+        "messaging_style": "clear, benefit-driven, action-oriented",
+        "visual_style": "clean, modern, professional"
+      }
+    }
+  }
+}

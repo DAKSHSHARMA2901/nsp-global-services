@@ -3,6 +3,7 @@
 import { useEffect, useRef } from 'react';
 import Link from 'next/link';
 import { useTranslation } from '@/hooks/useTranslationSimple';
+import InteractiveWaves from './InteractiveWaves';
 
 // Dynamically import Typed for client-side only
 let Typed: any = null;
@@ -39,13 +40,29 @@ export default function HeroSection() {
 
   return (
     <section className="bg-gradient-to-r from-blue-600 via-blue-700 to-blue-800 text-white relative overflow-hidden min-h-screen">
+      {/* Interactive Waves Background */}
+      <InteractiveWaves 
+        lineColor="rgba(255, 255, 255, 0.2)"
+        backgroundColor="transparent"
+        waveSpeedX={0.0125}
+        waveSpeedY={0.005}
+        waveAmpX={32}
+        waveAmpY={16}
+        xGap={10}
+        yGap={32}
+        friction={0.925}
+        tension={0.005}
+        maxCursorMove={100}
+        className="z-0"
+      />
+      
       {/* Background Animation */}
-      <div className="absolute inset-0 opacity-10">
+      <div className="absolute inset-0 opacity-10 z-10">
         <div className="absolute top-20 left-10 w-64 h-64 bg-yellow-400 rounded-full mix-blend-multiply filter blur-xl animate-pulse"></div>
         <div className="absolute top-40 right-10 w-64 h-64 bg-blue-300 rounded-full mix-blend-multiply filter blur-xl animate-pulse delay-1000"></div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 lg:py-32 relative z-10">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 lg:py-32 relative z-20">
         <div className="flex flex-col items-center justify-center min-h-[70vh]">
           {/* Content Wrapper */}
           <div className="text-center mb-12">

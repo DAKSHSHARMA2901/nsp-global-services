@@ -1,23 +1,35 @@
 'use client';
 
-import React, { useEffect, useState, useRef } from 'react';
-import { BsPlayFill } from 'react-icons/bs';
-import CountUp from 'react-countup';
-import AOS from 'aos';
-import "aos/dist/aos.css";
+import React, { useEffect, useState, useRef, Suspense, lazy, useCallback } from 'react';
 import Link from 'next/link';
 import Head from 'next/head';
 import { useTranslation } from '@/hooks/useTranslationSimple';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
+// Clean imports - no react-icons dependencies
+
+// Lazy load heavy components
+const CountUp = lazy(() => import('react-countup'));
+
 export default function AboutPage() {
   const { t } = useTranslation();
   const [counter, setCounter] = useState(false);
   const counterRef = useRef<HTMLDivElement>(null);
 
-  useEffect(() => {
+  const initializeAOS = useCallback(async () => {
+    const AOS = (await import('aos')).default;
+    // Load AOS CSS dynamically
+    const style = document.createElement('link');
+    style.rel = 'stylesheet';
+    style.href = 'https://unpkg.com/aos@2.3.1/dist/aos.css';
+    document.head.appendChild(style);
     AOS.init({ duration: 2000 });
+  }, []);
+
+  useEffect(() => {
+    // Initialize AOS lazily
+    initializeAOS();
 
     // Intersection Observer for counter animation
     const observer = new IntersectionObserver(
@@ -40,7 +52,7 @@ export default function AboutPage() {
         observer.unobserve(counterRef.current);
       }
     };
-  }, []);
+  }, [initializeAOS]);
 
   return (
     <>
@@ -219,20 +231,29 @@ export default function AboutPage() {
           <div className="py-20 bg-gray-50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-                {/* Left side - Video Placeholder */}
-                <div className="relative">
-                  <div className="w-full h-80 bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl shadow-2xl flex items-center justify-center">
-                    <div className="text-center text-white">
-                      <svg className="w-16 h-16 mx-auto mb-4" fill="currentColor" viewBox="0 0 20 20">
-                        <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clipRule="evenodd" />
-                      </svg>
-                      <p className="text-lg font-semibold">Company Video</p>
+                {/* Left side - Video */}
+                <div className="relative" data-aos="zoom-in-left" data-aos-offset="200">
+                  <div className="relative w-full h-80 rounded-2xl overflow-hidden shadow-2xl bg-gray-900">
+                    <video 
+                      className="w-full h-full object-cover"
+                      controls
+                      preload="metadata"
+                      controlsList="nodownload"
+                      style={{ outline: 'none' }}
+                    >
+                      <source src="/nsp.mp4" type="video/mp4" />
+                      <p className="text-white p-4">
+                        Your browser does not support the video tag. 
+                        <a href="/nsp.mp4" className="text-blue-400 underline ml-2">
+                          Download the video instead
+                        </a>
+                      </p>
+                    </video>
+                    
+                    {/* Video overlay for branding */}
+                    <div className="absolute top-4 left-4 bg-blue-600/90 backdrop-blur-sm rounded-lg px-3 py-1">
+                      <span className="text-white text-sm font-semibold">NSP Global Services</span>
                     </div>
-                  </div>
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <button className="w-20 h-20 bg-gradient-to-r from-blue-600 to-blue-700 rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition-transform duration-300">
-                      <BsPlayFill className="text-white text-3xl ml-1" />
-                    </button>
                   </div>
                 </div>
 
@@ -295,7 +316,11 @@ export default function AboutPage() {
                 {/* Total Countries */}
                 <div className="text-center bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-8 shadow-lg" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="100">
                   <div className="text-5xl lg:text-6xl font-bold text-blue-600 mb-2">
-                    {counter && <CountUp start={0} end={120} duration={1} delay={0} />}
+                    {counter && (
+                      <Suspense fallback={<span>120</span>}>
+                        <CountUp start={0} end={120} duration={1} delay={0} />
+                      </Suspense>
+                    )}
                     <span>+</span>
                   </div>
                   <p className="text-lg font-semibold text-gray-900">
@@ -306,7 +331,11 @@ export default function AboutPage() {
                 {/* WorldWide Companies */}
                 <div className="text-center bg-gradient-to-br from-yellow-50 to-yellow-100 rounded-2xl p-8 shadow-lg" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="100">
                   <div className="text-5xl lg:text-6xl font-bold text-yellow-600 mb-2">
-                    {counter && <CountUp start={0} end={200} duration={1} delay={0} />}
+                    {counter && (
+                      <Suspense fallback={<span>200</span>}>
+                        <CountUp start={0} end={200} duration={1} delay={0} />
+                      </Suspense>
+                    )}
                     <span>+</span>
                   </div>
                   <p className="text-lg font-semibold text-gray-900">
@@ -317,7 +346,11 @@ export default function AboutPage() {
                 {/* Yearly Revenue */}
                 <div className="text-center bg-gradient-to-br from-green-50 to-green-100 rounded-2xl p-8 shadow-lg" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="100">
                   <div className="text-5xl lg:text-6xl font-bold text-green-600 mb-2">
-                    {counter && <CountUp start={0} end={50} duration={1} delay={0} />}
+                    {counter && (
+                      <Suspense fallback={<span>50</span>}>
+                        <CountUp start={0} end={50} duration={1} delay={0} />
+                      </Suspense>
+                    )}
                     <span className="text-3xl">K+</span>
                   </div>
                   <p className="text-lg font-semibold text-gray-900">
