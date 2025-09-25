@@ -202,22 +202,7 @@ export default function ContactPage() {
                   </div>
                 </div>
 
-                {/* Office Address */}
-                <div className="flex items-start p-4 bg-blue-50 rounded-xl hover:bg-blue-100 transition-colors duration-300">
-                  <div className="flex-shrink-0 w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center mt-1">
-                    <HiLocationMarker size={24} className="text-white" />
-                  </div>
-                  <div className="ml-4">
-                    <h4 className="text-sm font-bold text-gray-900 mb-1">
-                      Office Address
-                    </h4>
-                    <p className="text-gray-600">
-                      123 Business District, Tech Park<br />
-                      Mumbai, Maharashtra 400001<br />
-                      India
-                    </p>
-                  </div>
-                </div>
+
 
                 {/* Business Hours */}
                 <div className="flex items-start p-4 bg-blue-50 rounded-xl hover:bg-blue-100 transition-colors duration-300">
@@ -632,7 +617,7 @@ export default function ContactPage() {
               Our Location
             </h2>
             <p className="text-lg text-gray-700">
-              Located in the heart of Mumbai's business district
+              Located in a prime business district
             </p>
           </div>
 
@@ -645,7 +630,7 @@ export default function ContactPage() {
                   <h3 className="text-2xl font-bold text-gray-800 mb-2">Interactive Map</h3>
                   <p className="text-gray-600 mb-6">Click to view on Google Maps</p>
                   <a 
-                    href="https://maps.google.com/?q=Business+District+Mumbai" 
+                    href="#" 
                     target="_blank" 
                     rel="noreferrer"
                     className="inline-flex items-center px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-xl transition-colors duration-300 shadow-lg"
@@ -670,13 +655,7 @@ export default function ContactPage() {
               </div>
 
               <div className="space-y-4">
-                <div className="flex items-start">
-                  <HiLocationMarker className="text-blue-600 mt-1 mr-3 flex-shrink-0" size={20} />
-                  <div>
-                    <p className="font-semibold text-gray-900">Address</p>
-                    <p className="text-gray-600">123 Business District, Tech Park<br />Mumbai, Maharashtra 400001, India</p>
-                  </div>
-                </div>
+
                 
                 <div className="flex items-start">
                   <HiPhone className="text-blue-600 mt-1 mr-3 flex-shrink-0" size={20} />

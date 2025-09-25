@@ -54,12 +54,7 @@ export default function RootLayout({
       contactType: 'customer service',
       availableLanguage: 'English'
     },
-    address: {
-      '@type': 'PostalAddress',
-      addressLocality: 'Your City',
-      addressRegion: 'Your State',
-      addressCountry: 'US'
-    },
+
     sameAs: [
       'https://www.facebook.com/nspglobalservices',
       'https://www.linkedin.com/company/nspglobalservices',
